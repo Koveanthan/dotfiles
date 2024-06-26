@@ -1,0 +1,9 @@
+- [ ] Setup Treesitter objects to move between function and variables
+- [ ] Avoid space with () surrounds - vim surround
+- [ ] Add no of occurences during search and text highlight on hover
+- [ ] Fix one shot channel issue for <leader>ws - lsp.lua
+- [ ] Add diagonistics for all open buffer from telescope via trouble or directly via trouble 
+- [ ] Syntax highlighting for snippets
+- [x] Setup [<d,w,..> shortcuts
+- [x] fix trouble diagnostics view, or setup switch to trouble from telescope instead
+- [x] yank highlighting setup
