@@ -11,24 +11,18 @@ return {
 	},
 	keys = {
 		{
-			"<leader>tw",
-			"<cmd>Trouble diagnostics toggle<cr>",
-			desc = "Diagnostics (Trouble)",
-		},
-		{
-			"<leader>td",
-			"<cmd>Trouble diagnostics toggle filter.buf=0<cr>",
-			desc = "Buffer Diagnostics (Trouble)",
-		},
-		{
 			"<leader>tt",
 			"<cmd>TodoTrouble<cr>",
 			desc = "Todo list (Trouble)",
 		},
-		["]t"] = "next",
-		["[t"] = "prev",
 	},
 	config = function()
 		require("trouble").setup()
+		vim.keymap.set("n", "[t", function()
+			require("trouble").prev({ focus = true })
+		end)
+		vim.keymap.set("n", "]t", function()
+			require("trouble").next({ focus = true })
+		end)
 	end,
 }
