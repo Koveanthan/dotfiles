@@ -23,4 +23,5 @@ stow --verbose --restow --target="$CONFIG/nvim" nvim
 stow --verbose --restow --target="$CONFIG/yabai" yabai
 stow --verbose --restow --target="$CONFIG/skhd" skhd
 stow --verbose --restow --target="$HOME" tmux
+stow --verbose --restow --target="$HOME" zshrc
 
