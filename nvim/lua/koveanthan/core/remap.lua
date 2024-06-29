@@ -81,7 +81,7 @@ vim.keymap.set("n", "[q", "<cmd>cprev<CR>zz")
 -- vim.keymap.set("n", "<leader>vpp", "<cmd>e ~/.dotfiles/nvim/.config/nvim/lua/koveanthan/packer.lua<CR>");
 -- vim.keymap.set("n", "<leader>mr", "<cmd>CellularAutomaton make_it_rain<CR>");
 --
-vim.keymap.set("n", "<leader>h", ":nohlsearch<CR>")
+vim.keymap.set("n", "<leader>H", ":nohlsearch<CR>")
 
 -- Resizing panes
 vim.keymap.set("n", "<Left>", ":vertical resize +1<CR>")

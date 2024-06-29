@@ -24,7 +24,7 @@ return {
 		formatters_by_ft = {
 			lua = { "stylua" },
 			go = { "gofmt", "goimports", "goimports-reviser", "golines" },
-			python = { "isort", "black" },
+			python = { "black" },
 			rust = { "rustfmt" },
 			typescript = { "prettierd" },
 			javascript = { "prettierd" },
